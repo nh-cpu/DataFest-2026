@@ -1,0 +1,46 @@
+{
+  "features": [
+    "Product Family",
+    "Facility",
+    "Controls Revision",
+    "Coil Supplier",
+    "Rework Shift",
+    "Defect Category",
+    "Repair Type",
+    "Disposition Code",
+    "EOLT Shift",
+    "Test Station",
+    "Failure Mode",
+    "Pass After Repair",
+    "Retested",
+    "Labor Hours",
+    "Material Cost",
+    "Rework Hours"
+  ],
+  "numeric": [
+    "Labor Hours",
+    "Material Cost",
+    "Rework Hours"
+  ],
+  "categorical": [
+    "Product Family",
+    "Facility",
+    "Controls Revision",
+    "Coil Supplier",
+    "Rework Shift",
+    "Defect Category",
+    "Repair Type",
+    "Disposition Code",
+    "EOLT Shift",
+    "Test Station",
+    "Failure Mode",
+    "Pass After Repair",
+    "Retested"
+  ],
+  "target": "total_warranty_cost",
+  "seed": 42,
+  "test_fraction": 0.2,
+  "cv_folds": 5,
+  "selection_metric": "MAE",
+  "residual_definition": "actual minus predicted"
+}

@@ -1,0 +1,139 @@
+{
+  "sources": {
+    "warranty": {
+      "rows": 3000,
+      "sha256": "67eb748c4886ea13496551f48f527d8bfc8a3d220728578712b8228d51d31741",
+      "not_in_config": [],
+      "config_without_record": []
+    },
+    "config": {
+      "rows": 3000,
+      "sha256": "963dac7a4012e1436232bc6149a602f858182f11f1ab563c956da6fcfec96780",
+      "exact_duplicates_removed": 0,
+      "not_in_config": [],
+      "config_without_record": []
+    },
+    "rework": {
+      "rows": 3000,
+      "sha256": "150b56833065331fc2e9592d39f42b01043e191de150d3ce0de88b223fad7fcc",
+      "exact_duplicates_removed": 0,
+      "not_in_config": [],
+      "config_without_record": []
+    },
+    "eolt": {
+      "rows": 3000,
+      "sha256": "45672274ca36b3b1ee00c5f5c26b8f7201b10e81db302bc73912a99b699d7529",
+      "exact_duplicates_removed": 0,
+      "not_in_config": [],
+      "config_without_record": []
+    }
+  },
+  "label_mappings": {
+    "config/Product Family": {
+      "DC100": "dc100",
+      "DC300": "dc300",
+      "DC200": "dc200",
+      "LegacyX": "legacyx"
+    },
+    "config/Facility": {
+      "Facility 3": "facility 3",
+      "Facility 2": "facility 2",
+      "Facility 1": "facility 1",
+      "Facility 4": "facility 4"
+    },
+    "config/Controls Revision": {
+      "Rev A": "rev a",
+      "Rev C": "rev c",
+      "Rev B": "rev b"
+    },
+    "config/Coil Supplier": {
+      "Supplier A": "supplier a",
+      "Supplier C": "supplier c",
+      "Supplier B": "supplier b"
+    },
+    "rework/Facility": {
+      "Facility 3": "facility 3",
+      "Facility 2": "facility 2",
+      "Facility 1": "facility 1",
+      "Facility 4": "facility 4"
+    },
+    "rework/Shift": {
+      "Night": "night",
+      "Day": "day"
+    },
+    "rework/Defect Category": {
+      "Controls": "controls",
+      "Wiring": "wiring",
+      "Brazing": "brazing"
+    },
+    "rework/Repair Type": {
+      "Sensor Rewire": "sensor rewire",
+      "Rewire": "rewire",
+      "Leak Repair": "leak repair",
+      "Fan Rotation Correction": "fan rotation correction"
+    },
+    "rework/Disposition Code": {
+      "Rework Completed": "rework completed",
+      "Use As Is": "use as is"
+    },
+    "eolt/Facility": {
+      "Facility 3": "facility 3",
+      "Facility 2": "facility 2",
+      "Facility 1": "facility 1",
+      "Facility 4": "facility 4"
+    },
+    "eolt/Shift": {
+      "Night": "night",
+      "Day": "day"
+    },
+    "eolt/Test Station": {
+      "Leak Test": "leak test",
+      "Controls Test": "controls test",
+      "Functional Test": "functional test",
+      "Electrical Test": "electrical test"
+    },
+    "eolt/Failure Mode": {
+      "Sensor Miswire": "sensor miswire",
+      "Loose Terminal": "loose terminal",
+      "Refrigerant Leak": "refrigerant leak",
+      "Fan Rotation Error": "fan rotation error"
+    },
+    "eolt/Pass After Repair": {
+      "Yes": "yes"
+    },
+    "eolt/Retested": {
+      "Yes": "yes"
+    }
+  },
+  "facility_discrepancies": {
+    "rework": [],
+    "eolt": []
+  },
+  "excluded_unknown_target_ids": [],
+  "eligible_units": 3000,
+  "target_total": 7653477.0,
+  "zero_cost_units": 0,
+  "missing_predictors": {
+    "Product Family": 0,
+    "Facility": 0,
+    "Controls Revision": 0,
+    "Coil Supplier": 0,
+    "Rework Shift": 0,
+    "Defect Category": 0,
+    "Repair Type": 0,
+    "Disposition Code": 0,
+    "EOLT Shift": 0,
+    "Test Station": 0,
+    "Failure Mode": 0,
+    "Pass After Repair": 0,
+    "Retested": 0,
+    "Labor Hours": 0,
+    "Material Cost": 0,
+    "Rework Hours": 0
+  },
+  "constant_predictors": [
+    "Pass After Repair",
+    "Retested"
+  ],
+  "limitation": "Recorded costs for represented units; no confirmed warranty horizon or no-claim population."
+}

@@ -1,0 +1,6 @@
+{
+  "threshold_training_p90": 7699.999999999998,
+  "test_units": 64,
+  "mean_underprediction_dollars": 1249.9935053571428,
+  "underpredicted_fraction": 0.890625
+}
